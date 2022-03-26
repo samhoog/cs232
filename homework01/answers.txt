@@ -1,0 +1,13 @@
+1. 1024 units
+2. reg0, reg1, reg2, pc
+3. self, src (source), dst (destination) - JLZ changes the program counter to destination
+if the register source is less than 0.
+4. in _run_program(self) in cpu.py it checks if an interrupt has been raised
+5. S shows the memory from start to end
+6. ! toggles debugging on or off
+7. They can contain comments as well as blank lines as you can see in fib.asm
+8. __setitem__(self, addr, val) in the RAM class
+9. They don't assume they are loaded in certain locations, we have to specify to them where 
+they are loaded into.
+
+

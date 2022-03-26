@@ -1,0 +1,11 @@
+Sam Hoogewind
+1) The PCB class is defined in calos.py directly under the CalOs class definition.
+2) It's name, pid, next pid, entry point, lowest memory point, highest memory point, and it's state
+3) In main.py, in the _load_program() function, line 180.
+4) New, Ready, Running, Waiting, Done
+5) current_proc is defined at the very start of the CalOS class - it refers to the PCB of the current process. 
+You need to use it to access PCB methods and variables.
+6) In Python, 'with' is used to handle resource allocation and make sure everything is cleaned up properly. By
+using with, we can assure countdown isn't incorrectly written and won't run into errors.
+7) When the countdown hits 0 it passes an interrupt, then sets the countdown to not running.
+
